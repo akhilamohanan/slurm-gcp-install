@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+  
+yum  groupinstall -y 'Development Tools'
+yum install -y \
+     openssl-devel \
+     libuuid-devel \
+     libseccomp-devel \
+     wget \
+     squashfs-tools \
+     cryptsetup
+
